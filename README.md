@@ -4,9 +4,7 @@
 - [SC1015 Data Science and Analytics Project - Telco Churn Prediction](#sc1015-data-science-and-analytics-project---telco-churn-prediction)
 - [Table of Contents](#table-of-contents)
 - [Video Presentation](#video-presentation)
-- [Current Problems](#current-problems)
-  - [1. Problem One](#1-problem-one)
-  - [2. Problem Two](#2-problem-two)
+- [Background](#background)
 - [Problem Statement](#problem-statement)
 - [Approach](#approach)
 - [Introduction to Codebase](#introduction-to-codebase)
@@ -17,16 +15,19 @@
 ## Video Presentation 
 insert link
 
-## Current Problems 
-### 1. ??? 
+## Background
+The global telecom services market is expanding given the rapid advancements in technology, such as 5G, and increased digital communications usage. However, given how prevalent telecom services are in people's lives, customers easily get frustrated at any performance errors and have a high tendency to switch away.
 
-### 2. ??? 
-
+High churn rate is relevant in the telecom industry and this is problematic given the industry's large fixed infrastructures that need to be covered by revenue.
 
 ## Problem Statement 
+Will customer A churn if he has the following attributes?
+
+## Dataset
+We used the Telco Customer Churn dataset from Kaggle, which simulates the customer statistics of a telecom company.
 
 ## Approach 
-- We first explored the datasets, finding the variables with highest correlation to churn. We note that there is a large class imbalance in the dataset and thus applied resampling techniques to ensure that the dataset is more balanced, in hopes of improving the model's accuracy. After cleaning the data, we then identified the 5 most correlated variables as inputs to our ML/AI models
+- We first explored the dataset, finding the variables with highest correlation to churn. We note that there is a large class imbalance in the dataset and thus applied resampling techniques to ensure that the dataset is more balanced, in hopes of improving the model's accuracy. After cleaning the data, we then identified the 5 most correlated variables as inputs to our ML/AI models
 ## Introduction to Codebase 
 ### Exploratory Data Analysis 
 ### Machine Learning 
