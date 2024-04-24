@@ -29,7 +29,31 @@ We used the Telco Customer Churn dataset from Kaggle, which simulates the custom
 ## Approach 
 - We first explored the dataset, finding the variables with highest correlation to churn. We note that there is a large class imbalance in the dataset and thus applied resampling techniques to ensure that the dataset is more balanced, in hopes of improving the model's accuracy. After cleaning the data, we then identified the 5 most correlated variables as inputs to our ML/AI models
 ## Introduction to Codebase 
-### Exploratory Data Analysis 
+### Exploratory Data Analysis
+#### Dataset Preparation
+The dataset includes:
+- Services provided by the company
+- Account information
+- Customer demographic data
+- Churn status (whether customers left within the last month)
+  
+#### Data Cleaning Steps:
+- Standardization: Each variable was standardized according to its context to ensure data consistency.
+- Handling Missing Values: Entries with null values were removed to improve data quality.
+- Removing Irrelevant Columns: Columns that were not relevant to our analysis or were redundant (e.g., TotalCharges, which can be derived from MonthlyCharges * tenure) were excluded.
+#### Data Analysis
+Univariate Analysis: 
+- Initial exploration of data distribution for each variable was conducted.
+Bivariate Analysis:
+- Numerical Variables: Utilized box plots and swarm plots to analyze the relationship between numerical variables and Churn.
+- Categorical Variables: Conducted Chi-Square tests to explore dependencies between categorical variables and Churn.
+
+Identified and selected the top 5 variables most strongly related to Churn.
+
+#### Data Preprocessing
+- Encoding: Applied one-hot encoding for categorical variables and label encoding for ordinal variables.
+- Normalization: Normalized numerical variables to ensure model accuracy and performance.
+
 ### Machine Learning 
 - #### Algorithms Used
   - #### 1. K-Nearest Neighbours
