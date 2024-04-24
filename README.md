@@ -33,10 +33,11 @@ The dataset includes:
   - Customer demographic data
   - Churn status (whether customers left within the last month)
   
-#### Data Cleaning Steps:
+#### Data Cleaning
   - Standardization: Each variable was standardized according to its context to ensure data consistency.
   - Handling Missing Values: Entries with null values were removed to improve data quality.
   - Removing Irrelevant Columns: Columns that were not relevant to our analysis or were redundant (e.g., TotalCharges, which can be derived from MonthlyCharges * tenure) were excluded.
+
 #### Data Analysis
   - Univariate Analysis:
       An initial exploration of data distribution for each variable was conducted.
