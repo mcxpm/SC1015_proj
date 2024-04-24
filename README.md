@@ -27,7 +27,7 @@ Will customer A churn if he has the following attributes?
 We used the Telco Customer Churn dataset from Kaggle, which simulates the customer statistics of a telecom company.
 
 ## Approach 
-- We first explored the dataset, finding the variables with highest correlation to churn. We note that there is a large class imbalance in the dataset and thus applied resampling techniques to ensure that the dataset is more balanced, in hopes of improving the model's accuracy. After cleaning the data, we then identified the 5 most correlated variables as inputs to our ML/AI models
+- We first explored the dataset, finding the variables with highest correlation to churn. We note that there is a large class imbalance in the dataset and thus applied resampling techniques to ensure that the dataset is more balanced, in hopes of improving the model's accuracy. After cleaning the data, we then identified the 5 most correlated variables as inputs to our ML/AI models. The output will be a yes/no prediction
 ## Introduction to Codebase 
 ### Exploratory Data Analysis
 The dataset includes:
