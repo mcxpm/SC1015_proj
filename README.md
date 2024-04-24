@@ -66,4 +66,4 @@ Identified and selected the top 5 variables most strongly related to Churn.
    
 
 ### Slides
-- [Slides can be found here](/SC1015_pres)
+- [Slides can be found here](/SC1015_Slides)
