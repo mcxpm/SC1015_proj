@@ -3,17 +3,13 @@
 ## Table of Contents
 - [SC1015 Data Science and Analytics Project - Telco Churn Prediction](#sc1015-data-science-and-analytics-project---telco-churn-prediction)
 - [Table of Contents](#table-of-contents)
-- [Video Presentation](#video-presentation)
 - [Background](#background)
 - [Problem Statement](#problem-statement)
 - [Approach](#approach)
 - [Introduction to Codebase](#introduction-to-codebase)
   - [Exploratory Data Analysis](#exploratory-data-analysis) 
   - [Machine Learning Algorithms](#machine-learning-algorithms)
-
-
-## Video Presentation 
-insert link
+- [Slides](#slides)
 
 ## Background
 The global telecom services market is expanding given the rapid advancements in technology, such as 5G, and increased digital communications usage. However, given how prevalent telecom services are in people's lives, customers easily get frustrated at any performance errors and have a high tendency to switch away.
@@ -66,4 +62,8 @@ Identified and selected the top 5 variables most strongly related to Churn.
     - Consists of multiple layers of neurons, with each neuron having a set of weights and biases. These parameters are tuned for every batch of data to minimise a loss function fed into the model through backpropagation. 
   - #### Choice of Algorithms
     - These algorithms were chosen for their strengths and robustness in classification tasks. Given the simplicity of our dataset, a small number of variables that were identified through data cleaning and the strong relationships of each individual variable to churn, we believed that simple models, such as the above, would be able to sufficiently achieve good accuracy in our classification task.
-    - Moreover, these models are all inherently different, using different principles for classification. By using this range of models, we hope to find the best-performing one. 
+    - Moreover, these models are all inherently different, using different principles for classification. By using this range of models, we hope to find the best-performing one.
+   
+
+### Slides
+- [Slides can be found here](/SC1015_pres)
