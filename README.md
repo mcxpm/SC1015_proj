@@ -10,10 +10,7 @@
 - [Problem Statement](#problem-statement)
 - [Approach](#approach)
 - [Introduction to Codebase](#introduction-to-codebase)
-  - [Data Cleaning](#data-cleaning)
-  - [Data Exploration](#data-exploration)
-  - [Data Visualisation](#data-visualisation)
-  - [Data Preprocessing](#data-preprocessing)
+  - [Exploratory Data Analysis](#exploratory-data-analysis) 
   - [Machine Learning Algorithms](#machine-learning-algorithms)
 
 
