@@ -29,7 +29,7 @@ insert link
 ## Problem Statement 
 
 ## Approach 
-- ### We first explored the datasets, finding the variables with highest correlation to churn. We note that there is a large class imbalance in the dataset and thus applied resampling techniques to ensure that the dataset is more balanced, in hopes of improving the model's accuracy. After cleaning the data, we then identified the 5 most correlated variables as inputs to our ML/AI models
+- #### We first explored the datasets, finding the variables with highest correlation to churn. We note that there is a large class imbalance in the dataset and thus applied resampling techniques to ensure that the dataset is more balanced, in hopes of improving the model's accuracy. After cleaning the data, we then identified the 5 most correlated variables as inputs to our ML/AI models
 ## Introduction to Codebase 
 ### Exploratory Data Analysis 
 ### Machine Learning 
