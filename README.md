@@ -30,7 +30,6 @@ We used the Telco Customer Churn dataset from Kaggle, which simulates the custom
 - We first explored the dataset, finding the variables with highest correlation to churn. We note that there is a large class imbalance in the dataset and thus applied resampling techniques to ensure that the dataset is more balanced, in hopes of improving the model's accuracy. After cleaning the data, we then identified the 5 most correlated variables as inputs to our ML/AI models
 ## Introduction to Codebase 
 ### Exploratory Data Analysis
-- #### Dataset Preparation
 The dataset includes:
   - Services provided by the company
   - Account information
